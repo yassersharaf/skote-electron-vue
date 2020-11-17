@@ -6,6 +6,14 @@ module.exports = {
         "win" : {
           "icon" : "src/assets/images/app_icon.png",
         },
+        "linux" : {
+          "target" : "deb",
+          "maintainer" : "LamasaTech",
+          "vendor" : "LamasaTech",
+          "executableName" : "VisiPoint version 5",
+          "category" : "Utility",
+          "icon" : "./src/assets/images/Icon-256x256.png",
+        },
         "productName" : "VisiPoint version 5"
       }
     },

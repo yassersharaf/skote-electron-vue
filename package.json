@@ -1,5 +1,7 @@
 {
-  "name": "skote",
+  "name": "vp5",
+  "description": "VisiPoint 5 Visiting System",
+  "author": "LamasaTech",
   "version": "0.1.0",
   "private": true,
   "scripts": {
