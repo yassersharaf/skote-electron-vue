@@ -18,7 +18,7 @@ import store from '@/state/store'
 
 import App from './App.vue'
 
-import { initFirebaseBackend } from './authUtils'
+//import { initFirebaseBackend } from './authUtils'
 import i18n from './i18n'
 
 import { configureFakeBackend } from './helpers/fake-backend';
@@ -26,7 +26,7 @@ import { configureFakeBackend } from './helpers/fake-backend';
 import tinymce from 'vue-tinymce-editor'
 Vue.component('tinymce', tinymce)
 
-const firebaseConfig = {
+/*const firebaseConfig = {
   apiKey: process.env.VUE_APP_APIKEY,
   authDomain: process.env.VUE_APP_AUTHDOMAIN,
   databaseURL: process.env.VUE_APP_VUE_APP_DATABASEURL,
@@ -35,10 +35,10 @@ const firebaseConfig = {
   messagingSenderId: process.env.VUE_APP_MESSAGINGSENDERID,
   appId: process.env.VUE_APP_APPId,
   measurementId: process.env.VUE_APP_MEASUREMENTID
-};
+};*/
 
 if (process.env.VUE_APP_DEFAULT_AUTH === "firebase") {
-  initFirebaseBackend(firebaseConfig);
+  //initFirebaseBackend(firebaseConfig);
 } else {
   if (process.env.VUE_APP_FAKE === true) {
     configureFakeBackend();

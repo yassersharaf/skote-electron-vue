@@ -104,7 +104,7 @@ export default {
               <div class="col-7">
                 <div class="text-primary p-4">
                   <h5 class="text-primary">Free Register</h5>
-                  <p>Get your free Skote account now.</p>
+                  <p>Get your VP5 account now.</p>
                 </div>
               </div>
               <div class="col-5 align-self-end">
@@ -222,7 +222,7 @@ export default {
 
               <div class="mt-4 text-center">
                 <p class="mb-0">
-                  By registering you agree to the Skote
+                  By registering you agree to the VP5
                   <a
                     href="javascript: void(0);"
                     class="text-primary"
@@ -241,10 +241,10 @@ export default {
             <router-link tag="a" to="/login" class="font-weight-medium text-primary">Login</router-link>
           </p>
           <p>
-            © {{ new Date().getFullYear() }} Skote. Crafted with
+            © {{ new Date().getFullYear() }} LamasaTech. Crafted with
             <i
               class="mdi mdi-heart text-danger"
-            ></i> by Themesbrand
+            ></i> by LamasaTech
           </p>
         </div>
       </div>

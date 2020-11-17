@@ -74,7 +74,7 @@ export default {
               <div class="col-7">
                 <div class="text-primary p-4">
                   <h5 class="text-primary">Reset Password</h5>
-                  <p>Re-Password with Skote.</p>
+                  <p>Re-Password with VP5.</p>
                 </div>
               </div>
               <div class="col-5 align-self-end">
@@ -128,10 +128,10 @@ export default {
             <router-link tag="a" to="/login" class="font-weight-medium text-primary">Sign In here</router-link>
           </p>
           <p>
-            © {{ new Date().getFullYear() }} Skote. Crafted with
+            © {{ new Date().getFullYear() }} LamasaTech. Crafted with
             <i
               class="mdi mdi-heart text-danger"
-            ></i> by Themesbrand
+            ></i> by LamasaTech
           </p>
         </div>
       </div>

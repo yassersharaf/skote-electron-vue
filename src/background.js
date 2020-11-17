@@ -22,7 +22,7 @@ async function createWindow() {
   })
 
   win.maximize();
-  //win.removeMenu();
+  win.removeMenu();
   //win.setMenuBarVisibility(false)
   win.show();
 

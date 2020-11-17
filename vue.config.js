@@ -4,7 +4,7 @@ module.exports = {
       builderOptions: {
         "appId": "com.example.app",
         "win" : {
-          "icon" : "src/assets/app_icon.png",
+          "icon" : "src/assets/images/app_icon.png",
         },
         "productName" : "VisiPoint version 5"
       }

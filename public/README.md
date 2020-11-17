@@ -1,4 +1,4 @@
-# Skote - Vue based admin template
+# VP5 - Vue based admin template
 
 ## Project setup
 ```
