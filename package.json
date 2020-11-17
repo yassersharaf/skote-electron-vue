@@ -4,12 +4,6 @@
   "author": "LamasaTech",
   "version": "0.1.0",
   "private": true,
-  "build": {
-    "icon": "./src/assets/icons/Icon-512.png",
-    "linux": {
-      "icon": "./src/assets/icons/"
-    }
-  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

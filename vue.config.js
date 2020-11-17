@@ -3,6 +3,7 @@ module.exports = {
     electronBuilder: {
       builderOptions: {
         "appId": "com.example.app",
+        "icon": "./src/assets/icons/Icon-512.png",
         "win" : {
           "icon" : "src/assets/images/app_icon.png",
         },
@@ -12,6 +13,7 @@ module.exports = {
           "vendor" : "LamasaTech",
           "executableName" : "VisiPoint version 5",
           "category" : "Utility",
+          "icon": "./src/assets/icons/"
         },
         "productName" : "VisiPoint version 5"
       }
