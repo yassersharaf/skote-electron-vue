@@ -12,7 +12,6 @@ module.exports = {
           "vendor" : "LamasaTech",
           "executableName" : "VisiPoint version 5",
           "category" : "Utility",
-          "icon" : "./src/assets/images/Icon-256x256.png",
         },
         "productName" : "VisiPoint version 5"
       }
