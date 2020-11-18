@@ -16,6 +16,7 @@ async function createWindow() {
   // Create the browser window.
   const win = new BrowserWindow({
     show: false,
+    icon: "/opt/VisiPoint version 5/resources/Icon-512x512.png",
     webPreferences: {
       // Use pluginOptions.nodeIntegration, leave this alone
       // See nklayman.github.io/vue-cli-plugin-electron-builder/guide/security.html#node-integration for more info
