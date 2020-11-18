@@ -3,6 +3,9 @@ module.exports = {
     electronBuilder: {
       builderOptions: {
         "appId": "com.example.app",
+        "publish": {
+          "provider": "github"
+        },
         "icon": "./src/assets/icons/Icon-512.png",
         "win" : {
           "icon" : "src/assets/images/app_icon.png",
@@ -24,9 +27,14 @@ module.exports = {
               "filter": [
                 "**/*"
               ]
-            }
+            },
           ],
         },
+        /*"mac": {
+          "target" : ["dmg"],
+          "icon": "./build/Icon-512.icns",
+          "category": "public.app-category.utilities"
+        },*/
         "productName" : "VisiPoint version 5"
       }
     },

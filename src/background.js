@@ -5,7 +5,7 @@ import { createProtocol } from 'vue-cli-plugin-electron-builder/lib'
 import installExtension, { VUEJS_DEVTOOLS } from 'electron-devtools-installer'
 const isDevelopment = process.env.NODE_ENV !== 'production'
 const path = require('path')
-
+const os = process.platform;
 // Scheme must be registered before the app is ready
 protocol.registerSchemesAsPrivileged([
   { scheme: 'app', privileges: { secure: true, standard: true } }
@@ -13,16 +13,21 @@ protocol.registerSchemesAsPrivileged([
 
 async function createWindow() {
   console.log(__dirname);
-  // Create the browser window.
-  const win = new BrowserWindow({
+
+  let options = {
     show: false,
-    icon: "/opt/VisiPoint version 5/resources/Icon-512x512.png",
     webPreferences: {
       // Use pluginOptions.nodeIntegration, leave this alone
       // See nklayman.github.io/vue-cli-plugin-electron-builder/guide/security.html#node-integration for more info
       nodeIntegration: process.env.ELECTRON_NODE_INTEGRATION
     }
-  })
+  }
+
+  if (os === 'linux') {
+    options.icon = "/opt/VisiPoint version 5/resources/Icon-512x512.png";
+  }
+  // Create the browser window.
+  const win = new BrowserWindow(options)
 
   win.maximize();
   win.removeMenu();

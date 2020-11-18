@@ -2,8 +2,9 @@
   "name": "vp5",
   "description": "VisiPoint 5 Visiting System",
   "author": "LamasaTech",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "repository": "https://github.com/yassersharaf/skote-electron-vue",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -12,7 +13,8 @@
     "electron:serve": "vue-cli-service electron:serve",
     "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'",
     "postinstall": "electron-builder install-app-deps",
-    "postuninstall": "electron-builder install-app-deps"
+    "postuninstall": "electron-builder install-app-deps",
+    "release": "electron-builder -l -p 'onTagOrDraft'"
   },
   "main": "background.js",
   "dependencies": {
