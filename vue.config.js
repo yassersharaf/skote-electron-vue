@@ -12,6 +12,7 @@ module.exports = {
           "icon" : "src/assets/images/app_icon.png",
         },
         "linux" : {
+          "publish": ["github"],
           "target" : ["deb"],
           "maintainer" : "LamasaTech",
           "vendor" : "LamasaTech",
