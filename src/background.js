@@ -6,6 +6,8 @@ import installExtension, { VUEJS_DEVTOOLS } from 'electron-devtools-installer'
 const isDevelopment = process.env.NODE_ENV !== 'production'
 const path = require('path')
 const os = process.platform;
+const updater = require('../updater')
+
 // Scheme must be registered before the app is ready
 protocol.registerSchemesAsPrivileged([
   { scheme: 'app', privileges: { secure: true, standard: true } }
@@ -13,6 +15,8 @@ protocol.registerSchemesAsPrivileged([
 
 async function createWindow() {
   console.log(__dirname);
+
+  setTimeout( updater, 3000)
 
   let options = {
     show: false,

@@ -13,8 +13,7 @@
     "electron:serve": "vue-cli-service electron:serve",
     "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'",
     "postinstall": "electron-builder install-app-deps",
-    "postuninstall": "electron-builder install-app-deps",
-    "release": "electron-builder -l -p 'onTagOrDraft'"
+    "postuninstall": "electron-builder install-app-deps"
   },
   "main": "background.js",
   "dependencies": {
@@ -35,6 +34,8 @@
     "chartist": "^0.11.4",
     "core-js": "^3.4.4",
     "echarts": "^4.8.0",
+    "electron-log": "^4.3.0",
+    "electron-updater": "^4.3.5",
     "eslint-loader": "^4.0.2",
     "firebase": "^7.7.0",
     "leaflet": "^1.6.0",

@@ -4,7 +4,8 @@ module.exports = {
       builderOptions: {
         "appId": "com.example.app",
         "publish": {
-          "provider": "github"
+          "provider": "github",
+          "url": "https://github.com/yassersharaf/skote-electron-vue"
         },
         "icon": "./src/assets/icons/Icon-512.png",
         "win" : {
