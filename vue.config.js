@@ -10,6 +10,15 @@ module.exports = {
         "icon": "./src/assets/icons/Icon-512.png",
         "win" : {
           "icon" : "src/assets/images/app_icon.png",
+          "extraFiles": [
+            {
+              "from": "resources",
+              "to": "resources",
+              "filter": [
+                "**/*"
+              ]
+            },
+          ],
         },
         "linux" : {
           "target" : ["deb"],
