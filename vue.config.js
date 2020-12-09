@@ -21,6 +21,7 @@ module.exports = {
           ],
         },
         "linux" : {
+          "publish": ["github"],
           "target" : ["deb"],
           "maintainer" : "LamasaTech",
           "vendor" : "LamasaTech",

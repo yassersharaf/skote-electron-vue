@@ -2,7 +2,7 @@
   "name": "vp5",
   "description": "VisiPoint 5 Visiting System",
   "author": "LamasaTech",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "private": true,
   "repository": "https://github.com/yassersharaf/skote-electron-vue",
   "scripts": {
